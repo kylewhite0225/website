@@ -1,0 +1,66 @@
+.showcase {
+  color: #fff;
+  height: 70vh;
+  position: relative;
+}
+
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.guide-showcase {
+  color: #fff;
+  height: 110vh;
+  position: relative;
+}
+
+.guide-showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.settings-and-controls h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.settings-and-controls dt a {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.settings-and-controls dd {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.flight-and-travel h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-top: 4rem;
+}
+
+.flight-and-travel dt a {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.flight-and-travel dd {
+  color: #fff;
+  font-size: 1.3rem;
+}

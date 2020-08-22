@@ -1,7 +1,14 @@
+/* ------------------------------------ */
+/* Global CSS Sylesheet */
+/* ------------------------------------ */
+
+
+/* Imports */
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
+/* Global Vars */
 :root {
-  --primary-color: rgba(2, 93, 167, 0.911);
+  --primary-color: rgba(2, 93, 167, 0.575);
   --overlay-color: rgba(24, 39, 51, 0.95);
   --menu-speed: 0.75s;
 }
@@ -12,6 +19,7 @@
     margin: 0;
 }
 
+/* Site-Wide Background Image And Text Formatting */
 body {
   background-image: url(../images/Background.png);
   background-position: center, center;
@@ -19,12 +27,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4;
   color: white;
 }
 
-
+/* XTC Logo */
 .logo {
   display: flex;
   flex-direction: column;
@@ -34,9 +42,16 @@ body {
   height: 100%;
 }
 
+/* Logo Description */
+/* TODO: Remove this once a logo has been chosen */
+.logo p {
+  font-size: 0.8rem;
+}
+
+/* Used to format and standardize the description of each page */
 .showcase {
   color: #fff;
-  height: 100vh;
+  height: 70vh;
   position: relative;
 }
 
@@ -46,11 +61,15 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100%;
+  height: auto;
 }
 
 .showcase h1 {
   font-size: 4rem;
+}
+
+.showcase h2 {
+  font-size: 2rem;
 }
 
 .showcase p {
@@ -64,7 +83,7 @@ body {
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   text-decoration: none;
 }
 
