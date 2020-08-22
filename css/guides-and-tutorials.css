@@ -2,6 +2,8 @@
   color: #fff;
   height: 70vh;
   position: relative;
+  margin-bottom: 17rem;
+  z-index: 1;
 }
 
 .showcase .showcase-inner {

@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 9999999;
 }
 
 .menu-bar .toggler {
@@ -114,8 +114,8 @@
 .menu-bar .menu > div {
   background: var(--overlay-color);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 300vw;
   display: flex;
   flex: none;
   align-items: center;
