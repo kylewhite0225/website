@@ -3,28 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <title>XTC Home</title>
 </head>
 <body>
+  <header class="logo">
+    <h1>XTC</h1>
+    <p>(a spot for our logo)</p>
+  </header>
 
-    <div class="background">
-        <div class="nav-container">
-            <div class="wrapper">
-                <nav>
-                    <div class="logo">
-                        XTC
-                    </div>
-
-                    <ul class="nav-items">
-                        <li>
-                            <a href="tutorials-and-guides.html">Tutorials and Guides</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+  <header class="menu-bar">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#flynow">Fly With Us</a></li>
+            <li><a href="tutorials-and-guides.html">Tutorials And Guides</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+          </ul>
         </div>
+      </div>
     </div>
-    
+  </header>
+
+  <header class="showcase">
+    <div class="container showcase-inner">
+      <h1>Welcome Pilot!</h1>
+      <p>This is persumably where a mission statement 
+        or motto would go. But for now I'm here to let 
+        you know this website is under construction 
+        and some features may not work yet.
+      </p>
+      <a href="#flynow" class="btn">Fly Now!</a>
+    </div>
+  </header>
 </body>
 </html>
