@@ -21,15 +21,23 @@
 
 /* Site-Wide Background Image And Text Formatting */
 body {
-  background-image: url(../images/Background.png);
-  background-position: center, center;
+  /* background-image: url(../images/Background.png); */
+  /* background-position: center, center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.4;
   color: white;
+}
+
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* XTC Logo */
