@@ -32,13 +32,13 @@ body {
   color: white;
 }
 
-.backgroundVideo {
-  object-fit: cover;
+.video-header {
+  position:absolute;
   width: 100vw;
   height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
+  object-fit: cover;
   /* min-width: 100%;
   min-height: 100%; */
 }
