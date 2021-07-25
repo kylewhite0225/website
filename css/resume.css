@@ -1,0 +1,12 @@
+.resume {
+	display: flex;
+	flex-direction: row;
+	min-height: 92.5vh;
+	min-width: 99.2vw;
+}
+
+.resume iframe {
+	background: #000;
+	border: none;
+	flex-grow: 1;
+}

@@ -3,6 +3,7 @@
   <head>
     <title>Resume</title>
   </head>
+  <link href = "css/resume.css" rel = "stylesheet">
   <body style="font-family: Arial, Helvetica, sans-serif;">
 
     <div style="width:760px;">
@@ -12,8 +13,29 @@
         <!--
           Place the following <div> element where you want the PDF to be displayed in your website. You can adjust the size using the width and height attributes.
         -->
-        <div>
-            <iframe id="pdf-js-viewer" src="/web/viewer.html?file=%2Fassets%2FResume.pdf" title="webviewer" frameborder="0" width="500" height="600"></iframe>
+        <!-- <div class = "resume">
+            <iframe id="pdf-js-viewer" 
+			src="/web/viewer.html?file=/assets/Resume.pdf" 
+			title="webviewer" 
+			frameborder="0" 
+			style="overflow:hidden;
+			height:calc(100vh - 30px);
+			width:100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;"
+			width="100%"
+			height="100%">
+			</iframe>
+        </div> -->
+
+		<div class = "resume">
+            <iframe id="pdf-js-viewer" 
+			src="/web/viewer.html?file=/assets/Resume.pdf" 
+			title="webviewer">
+			</iframe>
         </div>
 
     </div>
