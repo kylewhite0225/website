@@ -131,9 +131,27 @@
 	background: #387e9b;
 	color: #fff;
 	cursor: pointer;
+	margin-bottom: 15px;
   }
 
   #personalButton:hover {
+	background: #c7e0eb;
+	color: black;
+	opacity: 70%;
+  }
+
+  #gitButton {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: 3px;
+	border-radius: 5px;
+	background: #387e9b;
+	color: #fff;
+	cursor: pointer;
+  }
+
+  #gitButton:hover {
 	background: #c7e0eb;
 	color: black;
 	opacity: 70%;
